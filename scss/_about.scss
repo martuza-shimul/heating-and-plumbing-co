@@ -1,0 +1,43 @@
+.about {
+  padding: 10vh 5vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba($primary-color, 0.5)),
+    url("../img/hero1.jpg") no-repeat center;
+  background-size: cover;
+  color: aliceblue;
+
+  .about-content-wrapper {
+
+    background: rgba($text-color, 0.7);
+    padding: 30px;
+    border-radius: 10% 0;
+
+    .heading {
+      // background: coral;
+      padding: 0.7rem;
+      position: relative;
+      margin-bottom: 20px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        border-bottom: 5px solid $highlighter;
+        width: 40%;
+      }
+      h1{
+        color: $text-rev;
+      }
+      
+    }
+
+    .content {
+        margin-top: 50px;
+      p {
+        margin: 20px 0;
+        font-size: 1.2rem;
+        font-weight: 500;
+      }
+    }
+  }
+}

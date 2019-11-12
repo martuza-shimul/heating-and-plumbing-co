@@ -1,0 +1,11 @@
+.contact-banner{
+    background: $highlighter;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    h3{
+        font-weight: 900;
+    }
+}

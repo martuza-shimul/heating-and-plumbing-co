@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+	<Document>
+		<name>Locations for EASTSIDE BUILDING SERVICES .</name>
+		<atom:author>
+			<atom:name>Adam </atom:name>
+		</atom:author>
+		<atom:link rel="related" href="https://eastsidebs.co.uk" />
+		<Folder>
+			<Placemark>
+				<name><![CDATA[Heating And Plumbing Co]]></name>
+				<address><![CDATA[160 Kemp House, London , EC1V 2NX, United Kingdom]]></address>
+				<phoneNumber><![CDATA[02080883641]]></phoneNumber>
+				<description><![CDATA[At Heating And Plumbing Co, we value all our customers and our licensed Plumbers, Gas Engineers and Electricians in London work around your busy schedule to ensure that you get the quality certification, repairs and installations that you need. We work hard to diagnose and fix the problem as quickly as possible without compromising on quality.Heating And Plumbing Co160 Kemp HouseLondon EC1V 2NXUK02080883641]]></description>
+				<Point>
+					<coordinates>-0.0888953,51.5273001,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+</kml>

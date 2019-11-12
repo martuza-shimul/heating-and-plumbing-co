@@ -1,0 +1,23 @@
+.services {
+  // padding: 10vh 0;
+  // background: aliceblue;
+
+  .heading {
+    // background: coral;
+
+    &::after {
+      left: 40%;
+      bottom: 0;
+
+      width: 20%;
+    }
+  }
+  .new-item {
+    p {
+      background: $highlighter;
+      padding: 20px 10px;
+      font-size: 1.35rem;
+      font-weight: 500;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.footer {
+  background: $primary-dark;
+  padding: 1vh;
+  color: #fff;
+  box-sizing: border-box;
+  max-width: 100vw;
+  // display: grid;
+
+  .row {
+    margin: 5px;
+    .content {
+      display: flex;
+      // flex-direction: column;
+      justify-content: space-around;
+
+      .location {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        letter-spacing: 1px;
+
+        span {
+          margin-left: 10px;
+        }
+      }
+      .links {
+        display: flex;
+        align-items: center;
+
+        a {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+$primary-color: rgb(0,115,188);
+$sticky-header: aliceblue;
+$highlighter: #F15A2C;
+$text-color: #000;
+$text-rev: #f2f2f2;
+$primary-dark: #00AEEF;
+
+.heading {
+    // background: coral;
+    padding: 1rem;
+    position: relative;
+    margin-bottom: 50px;
+    font-size: 4rem;
+   
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      border-bottom: 5px solid $highlighter;
+      width: 100%;
+    }
+    h1 {
+        font-size: 4rem;
+        font-weight: 700;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: $primary-color;
+      }
+  }

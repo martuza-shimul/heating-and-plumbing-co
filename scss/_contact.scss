@@ -1,0 +1,72 @@
+.contact {
+  padding: 5vh 0;
+  .contact-content-wrapper {
+    background: $highlighter;
+    padding: 7vh 5vh;
+    .heading {
+      // background: coral;
+
+      &::after {
+        left: 0;
+        bottom: 0;
+        border-bottom: 5px solid $text-rev;
+        width: 40%;
+      }
+      h1 {
+        color: #fff;
+      }
+    }
+    .content {
+      p {
+        color: #fff;
+      }
+    }
+  }
+
+  .form-wrapper {
+    padding: 5vh;
+
+    // label.active{
+    //   color: $primary-color;
+    // }
+    // .input-field input:active>label{
+    //   color: $primary-color;
+    // }
+    // input[type="text"]:not(.browser-default):focus:not([readonly]),
+    // input[type="email"]:not(.browser-default):focus:not([readonly]),
+    // textarea.materialize-textarea:focus:not([readonly]) {
+    //   border-bottom: 1px solid $primary-color;
+    //   // -webkit-box-shadow: 0 1px 0 0 #26a69a;
+    //   box-shadow: 0 1px 0 0 $primary-color;
+    // }
+
+    // input[type="text"]:not(.browser-default):focus:not([readonly])+label,
+    // input[type="email"]:not(.browser-default):focus:not([readonly])+label,
+    // textarea.materialize-textarea:focus:not([readonly])+label{
+    //   color: $primary-color;
+    // }
+
+    button {
+      background: $highlighter;
+      z-index: 0;
+
+      &:hover{
+        background: $primary-color;
+      }
+    }
+  }
+}
+
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+    input[type="email"]:not(.browser-default):focus:not([readonly]),
+    textarea.materialize-textarea:focus:not([readonly]) {
+      border-bottom: 1px solid $primary-color;
+      // -webkit-box-shadow: 0 1px 0 0 #26a69a;
+      box-shadow: 0 1px 0 0 $primary-color;
+    }
+
+    input[type="text"]:not(.browser-default):focus:not([readonly])+label,
+    input[type="email"]:not(.browser-default):focus:not([readonly])+label,
+    textarea.materialize-textarea:focus:not([readonly])+label{
+      color: $primary-color;
+    }
