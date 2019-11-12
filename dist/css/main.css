@@ -11,7 +11,7 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  border-bottom: 5px solid #F15A2C;
+  border-bottom: 5px solid #D33F28;
   width: 100%;
 }
 
@@ -20,7 +20,7 @@
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #0073bc;
+  color: #12536C;
 }
 
 .main-header {
@@ -37,7 +37,7 @@
   height: 85px;
   width: 100vw;
   padding: 0 10vh;
-  color: #0073bc;
+  color: #D33F28;
   z-index: 99;
   -webkit-transition: 0.4s ease-out;
   transition: 0.4s ease-out;
@@ -169,7 +169,7 @@
 
 .main-header.scrolled {
   height: 65px;
-  background: rgba(240, 248, 255, 0.9);
+  background: rgba(243, 243, 243, 0.9);
 }
 
 .main-header.scrolled .logo a:first-child {
@@ -186,8 +186,8 @@
 
 .hero {
   height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 242, 242, 0.1)), to(rgba(0, 115, 188, 0.5))), url("../img/hero3.jpg") no-repeat top center;
-  background: linear-gradient(rgba(242, 242, 242, 0.1), rgba(0, 115, 188, 0.5)), url("../img/hero3.jpg") no-repeat top center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 242, 242, 0.2)), to(rgba(18, 83, 108, 0.4))), url("../img/hero5.jpg") no-repeat top center;
+  background: linear-gradient(rgba(242, 242, 242, 0.2), rgba(18, 83, 108, 0.4)), url("../img/hero5.jpg") no-repeat top center;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -212,7 +212,7 @@
   text-transform: uppercase;
   font-weight: 900;
   text-align: center;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(18, 83, 108, 0.4);
   padding: 2rem;
   border-radius: 30px 0;
   color: #f2f2f2;
@@ -228,23 +228,23 @@
 
 .hero h1::before {
   left: 0;
-  border-bottom: 6px solid #F15A2C;
+  border-bottom: 6px solid #D33F28;
 }
 
 .hero h1::after {
   right: 0;
-  border-top: 6px solid #F15A2C;
+  border-top: 6px solid #D33F28;
 }
 
 .hero button {
   border-radius: 15px 0;
-  background: #F15A2C;
+  background: #D33F28;
   font-weight: 700;
 }
 
 .hero button:hover {
-  background: #0073bc;
-  color: aliceblue;
+  background: #12536C;
+  color: #f3f3f3;
 }
 
 .services .heading::after {
@@ -254,7 +254,7 @@
 }
 
 .services .new-item p {
-  background: #F15A2C;
+  background: #12536C;
   padding: 20px 10px;
   font-size: 1.35rem;
   font-weight: 500;
@@ -262,14 +262,14 @@
 
 .about {
   padding: 10vh 5vh;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 115, 188, 0.5))), url("../img/hero1.jpg") no-repeat center;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 115, 188, 0.5)), url("../img/hero1.jpg") no-repeat center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(18, 83, 108, 0.4))), url("../img/hero4.jpg") no-repeat center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(18, 83, 108, 0.4)), url("../img/hero4.jpg") no-repeat center;
   background-size: cover;
   color: aliceblue;
 }
 
 .about .about-content-wrapper {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(18, 83, 108, 0.8);
   padding: 30px;
   border-radius: 10% 0;
 }
@@ -285,7 +285,7 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  border-bottom: 5px solid #F15A2C;
+  border-bottom: 5px solid #D33F28;
   width: 40%;
 }
 
@@ -304,7 +304,7 @@
 }
 
 .contact-banner {
-  background: #F15A2C;
+  background: #D33F28;
   padding: 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -360,11 +360,11 @@
 }
 
 .pricing .price-content-wrapper .content ul li i {
-  color: #F15A2C;
+  color: #D33F28;
 }
 
 .pricing .price-content-wrapper .content ul li .rate {
-  color: #0073bc;
+  color: #12536C;
 }
 
 .pricing .price-content-wrapper .content p {
@@ -393,7 +393,7 @@
 }
 
 .area-cover .tabs .tab a {
-  color: #0073bc;
+  color: #12536C;
   font-size: 20px;
   margin-top: -10px;
   text-transform: capitalize;
@@ -401,7 +401,7 @@
 
 .area-cover .tabs .indicator {
   height: 3px;
-  background-color: #F15A2C;
+  background-color: #D33F28;
 }
 
 .contact {
@@ -409,7 +409,7 @@
 }
 
 .contact .contact-content-wrapper {
-  background: #F15A2C;
+  background: #12536C;
   padding: 7vh 5vh;
 }
 
@@ -433,30 +433,30 @@
 }
 
 .contact .form-wrapper button {
-  background: #F15A2C;
+  background: #D33F28;
   z-index: 0;
 }
 
 .contact .form-wrapper button:hover {
-  background: #0073bc;
+  background: #12536C;
 }
 
 input[type="text"]:not(.browser-default):focus:not([readonly]),
 input[type="email"]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #0073bc;
-  -webkit-box-shadow: 0 1px 0 0 #0073bc;
-          box-shadow: 0 1px 0 0 #0073bc;
+  border-bottom: 1px solid #12536C;
+  -webkit-box-shadow: 0 1px 0 0 #12536C;
+          box-shadow: 0 1px 0 0 #12536C;
 }
 
 input[type="text"]:not(.browser-default):focus:not([readonly]) + label,
 input[type="email"]:not(.browser-default):focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label {
-  color: #0073bc;
+  color: #12536C;
 }
 
 .footer {
-  background: #00AEEF;
+  background: #12536C;
   padding: 1vh;
   color: #fff;
   -webkit-box-sizing: border-box;
@@ -505,7 +505,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 }
 
 .sticky-mobile {
-  background: #F15A2C;
+  background: #D33F28;
   color: #f2f2f2;
   width: 100vw;
   max-height: 53px;
@@ -541,8 +541,8 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 
 .page-header {
   height: 30vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 242, 242, 0.6)), to(rgba(0, 115, 188, 0.5))), url("../img/hero3.jpg") no-repeat top;
-  background: linear-gradient(rgba(242, 242, 242, 0.6), rgba(0, 115, 188, 0.5)), url("../img/hero3.jpg") no-repeat top;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 242, 242, 0.6)), to(rgba(18, 83, 108, 0.5))), url("../img/hero3.jpg") no-repeat top;
+  background: linear-gradient(rgba(242, 242, 242, 0.6), rgba(18, 83, 108, 0.5)), url("../img/hero3.jpg") no-repeat top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -625,7 +625,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
     height: 92vh;
     font-size: 1.2rem;
     color: #ffffff;
-    background: rgba(0, 115, 188, 0.9);
+    background: rgba(18, 83, 108, 0.9);
     -webkit-transition: opacity 0.8s 0.5s, -webkit-clip-path 1s 0.5s;
     transition: opacity 0.8s 0.5s, -webkit-clip-path 1s 0.5s;
     transition: opacity 0.8s 0.5s, clip-path 1s 0.5s;
@@ -731,7 +731,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
     font-weight: 600;
   }
   .pricing .price-content-wrapper .content ul li i {
-    color: #0073bc;
+    color: #12536C;
     font-size: 30px;
   }
   .contact .contact-content-wrapper .heading::after {
@@ -982,13 +982,13 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 
 [type="radio"]:checked + span:after,
 [type="radio"].with-gap:checked + span:after {
-  background-color: #F15A2C;
+  background-color: #D33F28;
 }
 
 [type="radio"]:checked + span:after,
 [type="radio"].with-gap:checked + span:before,
 [type="radio"].with-gap:checked + span:after {
-  border: 2px solid #F15A2C;
+  border: 2px solid #D33F28;
 }
 
 [type="radio"]:not(:checked) + span,
@@ -1000,8 +1000,8 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 }
 
 [type="checkbox"]:checked + span:not(.lever):before {
-  border-right: 2px solid #F15A2C;
-  border-bottom: 2px solid #F15A2C;
+  border-right: 2px solid #D33F28;
+  border-bottom: 2px solid #D33F28;
 }
 
 .hide {
@@ -1018,7 +1018,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 }
 
 .modal .modal-footer {
-  background-color: #0073bc;
+  background-color: #12536C;
 }
 
 .modal .modal-footer button {
@@ -1027,7 +1027,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 }
 
 .modal .modal-footer button i {
-  color: #F15A2C;
+  color: #D33F28;
   font-size: 2rem;
 }
 
@@ -1046,7 +1046,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 }
 
 .modal-content .quote-engine-wrapper .submit input {
-  background: #F15A2C;
+  background: #D33F28;
   margin-top: 10px;
   padding: 10px;
   font-size: 1.1rem;

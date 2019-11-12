@@ -1,13 +1,13 @@
 .about {
   padding: 10vh 5vh;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba($primary-color, 0.5)),
-    url("../img/hero1.jpg") no-repeat center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba($primary-color, 0.4)),
+    url("../img/hero4.jpg") no-repeat center;
   background-size: cover;
   color: aliceblue;
 
   .about-content-wrapper {
 
-    background: rgba($text-color, 0.7);
+    background: rgba($primary-color, 0.8);
     padding: 30px;
     border-radius: 10% 0;
 
