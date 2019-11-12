@@ -37,7 +37,7 @@
   height: 85px;
   width: 100vw;
   padding: 0 10vh;
-  color: #D33F28;
+  color: #12536C;
   z-index: 99;
   -webkit-transition: 0.4s ease-out;
   transition: 0.4s ease-out;
@@ -369,6 +369,16 @@
 
 .pricing .price-content-wrapper .content p {
   margin-top: 5%;
+}
+
+.safety-logos {
+  margin: 20px 0;
+}
+
+.safety-logos img {
+  width: 150px;
+  height: 120px;
+  margin: 0 auto;
 }
 
 .area-cover .heading::after {
