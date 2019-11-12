@@ -1,0 +1,147 @@
+
+
+.form-map-wrapper{
+    width: 90%;
+    margin: 0 auto;
+
+    .map{
+        h2{
+            font-weight: 700;
+            font-size: 2.7rem;
+            // text-transform: uppercase;
+            color: $text-rev;
+            background: $primary-color;
+            padding: 10px;
+        }
+    }
+    .form{
+        padding: 4vh 0;
+
+        h6{
+            font-weight: 600;
+        }
+
+        h4{
+            font-weight: 700;
+            background: $highlighter;
+            color: $text-rev;
+            padding: 15px;
+            margin-top: 0;
+        }
+
+        .btn{
+            background: $highlighter;
+        }
+    }
+}
+
+
+.pricing-table {
+    /* background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF); */
+    /* background: #4267b2;
+    background: linear-gradient( to right, #4267b2, #007bff) */
+    margin-bottom: 20px;
+    .pricing-plan-header{
+        h1{
+            font-weight: 700;
+            color: $primary-color;
+        }
+    }
+    .container{
+        width: 85%;
+    }
+
+    .card {
+        border: none;
+        border-radius: 2rem 0;
+        transition: all 0.2s;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+        padding: 20px;
+      }
+
+    .card-header{
+        padding: 25px 10px;
+        background: $primary-color;
+        color: #fff;
+        border-radius: 2rem 0;
+        /* border-radius: 50%; */
+
+        p{
+            margin-top: 15px;
+            font-size: 80%
+        }
+    }
+
+    hr {
+        margin: 1.5rem 0;
+      }
+
+      .card-title {
+        margin: 0.5rem 0;
+        font-size: 0.9rem;
+        letter-spacing: .1rem;
+        font-weight: bold;
+        /* color: #fff; */
+      }
+      .card-price {
+        font-size: 3rem;
+        margin: 0;
+
+        .period {
+            font-size: 0.8rem;
+          }
+      }
+
+      ul li {
+        margin-bottom: 1rem;
+      }
+
+      .text-muted {
+        opacity: 0.7;
+      }
+
+      .price-btn {
+        width: 100%;
+        display: block;
+        border-radius: 5rem;
+        letter-spacing: .1rem;
+        font-weight: bold;
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 1rem;
+        opacity: 0.8;
+        transition: all 0.2s;
+        color: $text-rev;
+        background: $highlighter;
+      }
+      .fa-ul{
+          list-style-type: disc;
+      }
+  }
+  
+  
+  .seo{
+
+    width: 98%;
+    margin: 0 auto;
+      h4{
+          font-weight: 100;
+          font-size: 0.6rem;
+          color: $text-rev;
+      }
+  }
+  
+  
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+    .pricing-table .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba($highlighter, 0.3);
+    }
+    .pricing .card:hover .btn {
+      opacity: 1;
+    }
+  }

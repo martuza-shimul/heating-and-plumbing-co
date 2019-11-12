@@ -551,8 +551,8 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 
 .page-header {
   height: 30vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 242, 242, 0.6)), to(rgba(18, 83, 108, 0.5))), url("../img/hero3.jpg") no-repeat top;
-  background: linear-gradient(rgba(242, 242, 242, 0.6), rgba(18, 83, 108, 0.5)), url("../img/hero3.jpg") no-repeat top;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 242, 242, 0.6)), to(rgba(18, 83, 108, 0.5))), url("../img/hero1.jpg") no-repeat top;
+  background: linear-gradient(rgba(242, 242, 242, 0.6), rgba(18, 83, 108, 0.5)), url("../img/hero1.jpg") no-repeat top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -568,7 +568,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
       -ms-flex-align: center;
           align-items: center;
   padding: 0 10vw;
-  color: #000;
+  color: #12536C;
 }
 
 .page-header h3 {
@@ -1063,6 +1063,152 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   border: none;
   color: #f2f2f2;
   text-transform: uppercase;
+}
+
+.form-map-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.form-map-wrapper .map h2 {
+  font-weight: 700;
+  font-size: 2.7rem;
+  color: #f2f2f2;
+  background: #12536C;
+  padding: 10px;
+}
+
+.form-map-wrapper .form {
+  padding: 4vh 0;
+}
+
+.form-map-wrapper .form h6 {
+  font-weight: 600;
+}
+
+.form-map-wrapper .form h4 {
+  font-weight: 700;
+  background: #D33F28;
+  color: #f2f2f2;
+  padding: 15px;
+  margin-top: 0;
+}
+
+.form-map-wrapper .form .btn {
+  background: #D33F28;
+}
+
+.pricing-table {
+  /* background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF); */
+  /* background: #4267b2;
+    background: linear-gradient( to right, #4267b2, #007bff) */
+  margin-bottom: 20px;
+}
+
+.pricing-table .pricing-plan-header h1 {
+  font-weight: 700;
+  color: #12536C;
+}
+
+.pricing-table .container {
+  width: 85%;
+}
+
+.pricing-table .card {
+  border: none;
+  border-radius: 2rem 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.pricing-table .card-header {
+  padding: 25px 10px;
+  background: #12536C;
+  color: #fff;
+  border-radius: 2rem 0;
+  /* border-radius: 50%; */
+}
+
+.pricing-table .card-header p {
+  margin-top: 15px;
+  font-size: 80%;
+}
+
+.pricing-table hr {
+  margin: 1.5rem 0;
+}
+
+.pricing-table .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  /* color: #fff; */
+}
+
+.pricing-table .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing-table .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing-table ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing-table .text-muted {
+  opacity: 0.7;
+}
+
+.pricing-table .price-btn {
+  width: 100%;
+  display: block;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1rem;
+  opacity: 0.8;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  color: #f2f2f2;
+  background: #D33F28;
+}
+
+.pricing-table .fa-ul {
+  list-style-type: disc;
+}
+
+.seo {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.seo h4 {
+  font-weight: 100;
+  font-size: 0.6rem;
+  color: #f2f2f2;
+}
+
+/* Hover Effects on Card */
+@media (min-width: 992px) {
+  .pricing-table .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    -webkit-box-shadow: 0 0.5rem 1rem 0 rgba(211, 63, 40, 0.3);
+            box-shadow: 0 0.5rem 1rem 0 rgba(211, 63, 40, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
 }
 
 *,
