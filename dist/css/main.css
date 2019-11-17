@@ -7,11 +7,11 @@
 }
 
 .heading::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
-  border-bottom: 5px solid #D33F28;
+  border-bottom: 5px solid #d33f28;
   width: 100%;
 }
 
@@ -20,7 +20,7 @@
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #12536C;
+  color: #12536c;
 }
 
 .main-header {
@@ -37,7 +37,7 @@
   height: 85px;
   width: 100vw;
   padding: 0 10vh;
-  color: #12536C;
+  color: #12536c;
   z-index: 99;
   -webkit-transition: 0.4s ease-out;
   transition: 0.4s ease-out;
@@ -109,7 +109,7 @@
 }
 
 .main-header .nav-links .nav-link a:hover {
-  background: rgba(242, 242, 242, 0.5);
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .main-header .menu-icon {
@@ -186,8 +186,8 @@
 
 .hero {
   height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 242, 242, 0.2)), to(rgba(18, 83, 108, 0.4))), url("../img/hero5.jpg") no-repeat top center;
-  background: linear-gradient(rgba(242, 242, 242, 0.2), rgba(18, 83, 108, 0.4)), url("../img/hero5.jpg") no-repeat top center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(18, 83, 108, 0.4))), url("../img/hero5.jpg") no-repeat top center;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(18, 83, 108, 0.4)), url("../img/hero5.jpg") no-repeat top center;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -215,7 +215,7 @@
   background: rgba(18, 83, 108, 0.4);
   padding: 2rem;
   border-radius: 30px 0;
-  color: #f2f2f2;
+  color: #fff;
 }
 
 .hero h1::before, .hero h1::after {
@@ -228,22 +228,22 @@
 
 .hero h1::before {
   left: 0;
-  border-bottom: 6px solid #D33F28;
+  border-bottom: 6px solid #d33f28;
 }
 
 .hero h1::after {
   right: 0;
-  border-top: 6px solid #D33F28;
+  border-top: 6px solid #d33f28;
 }
 
 .hero button {
   border-radius: 15px 0;
-  background: #D33F28;
+  background: #d33f28;
   font-weight: 700;
 }
 
 .hero button:hover {
-  background: #12536C;
+  background: #12536c;
   color: #f3f3f3;
 }
 
@@ -254,7 +254,7 @@
 }
 
 .services .new-item p {
-  background: #12536C;
+  background: #12536c;
   padding: 20px 10px;
   font-size: 1.35rem;
   font-weight: 500;
@@ -285,12 +285,12 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  border-bottom: 5px solid #D33F28;
+  border-bottom: 5px solid #d33f28;
   width: 40%;
 }
 
 .about .about-content-wrapper .heading h1 {
-  color: #f2f2f2;
+  color: #fff;
 }
 
 .about .about-content-wrapper .content {
@@ -304,7 +304,7 @@
 }
 
 .contact-banner {
-  background: #D33F28;
+  background: #d33f28;
   padding: 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -360,11 +360,11 @@
 }
 
 .pricing .price-content-wrapper .content ul li i {
-  color: #D33F28;
+  color: #d33f28;
 }
 
 .pricing .price-content-wrapper .content ul li .rate {
-  color: #12536C;
+  color: #12536c;
 }
 
 .pricing .price-content-wrapper .content p {
@@ -403,7 +403,7 @@
 }
 
 .area-cover .tabs .tab a {
-  color: #12536C;
+  color: #12536c;
   font-size: 20px;
   margin-top: -10px;
   text-transform: capitalize;
@@ -411,7 +411,7 @@
 
 .area-cover .tabs .indicator {
   height: 3px;
-  background-color: #D33F28;
+  background-color: #d33f28;
 }
 
 .contact {
@@ -419,14 +419,14 @@
 }
 
 .contact .contact-content-wrapper {
-  background: #12536C;
+  background: #12536c;
   padding: 7vh 5vh;
 }
 
 .contact .contact-content-wrapper .heading::after {
   left: 0;
   bottom: 0;
-  border-bottom: 5px solid #f2f2f2;
+  border-bottom: 5px solid #fff;
   width: 40%;
 }
 
@@ -443,30 +443,30 @@
 }
 
 .contact .form-wrapper button {
-  background: #D33F28;
+  background: #d33f28;
   z-index: 0;
 }
 
 .contact .form-wrapper button:hover {
-  background: #12536C;
+  background: #12536c;
 }
 
 input[type="text"]:not(.browser-default):focus:not([readonly]),
 input[type="email"]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #12536C;
-  -webkit-box-shadow: 0 1px 0 0 #12536C;
-          box-shadow: 0 1px 0 0 #12536C;
+  border-bottom: 1px solid #12536c;
+  -webkit-box-shadow: 0 1px 0 0 #12536c;
+          box-shadow: 0 1px 0 0 #12536c;
 }
 
 input[type="text"]:not(.browser-default):focus:not([readonly]) + label,
 input[type="email"]:not(.browser-default):focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label {
-  color: #12536C;
+  color: #12536c;
 }
 
 .footer {
-  background: #12536C;
+  background: #12536c;
   padding: 1vh;
   color: #fff;
   -webkit-box-sizing: border-box;
@@ -515,8 +515,8 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 }
 
 .sticky-mobile {
-  background: #D33F28;
-  color: #f2f2f2;
+  background: #d33f28;
+  color: #fff;
   width: 100vw;
   max-height: 53px;
   position: fixed;
@@ -546,13 +546,13 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 }
 
 .sticky-mobile .row p a {
-  color: #f2f2f2;
+  color: #fff;
 }
 
 .page-header {
   height: 30vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 242, 242, 0.6)), to(rgba(18, 83, 108, 0.5))), url("../img/hero1.jpg") no-repeat top;
-  background: linear-gradient(rgba(242, 242, 242, 0.6), rgba(18, 83, 108, 0.5)), url("../img/hero1.jpg") no-repeat top;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.6)), to(rgba(18, 83, 108, 0.5))), url("../img/hero1.jpg") no-repeat top;
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(18, 83, 108, 0.5)), url("../img/hero1.jpg") no-repeat top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -568,7 +568,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
       -ms-flex-align: center;
           align-items: center;
   padding: 0 10vw;
-  color: #12536C;
+  color: #d33f28;
 }
 
 .page-header h3 {
@@ -694,17 +694,17 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
             animation: pulse 1s;
   }
   .main-header .menu-btn:checked ~ .menu-icon .menu-icon_line {
-    background: #f2f2f2;
+    background: #fff;
     -webkit-animation: openMid 0.8s forwards;
             animation: openMid 0.8s forwards;
   }
   .main-header .menu-btn:checked ~ .menu-icon .menu-icon_line::before {
-    background: #f2f2f2;
+    background: #fff;
     -webkit-animation: openTop 0.8s forwards;
             animation: openTop 0.8s forwards;
   }
   .main-header .menu-btn:checked ~ .menu-icon .menu-icon_line::after {
-    background: #f2f2f2;
+    background: #fff;
     -webkit-animation: openBtm 0.8s forwards;
             animation: openBtm 0.8s forwards;
   }
@@ -741,7 +741,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
     font-weight: 600;
   }
   .pricing .price-content-wrapper .content ul li i {
-    color: #12536C;
+    color: #12536c;
     font-size: 30px;
   }
   .contact .contact-content-wrapper .heading::after {
@@ -1005,13 +1005,13 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 
 [type="radio"]:checked + span:after,
 [type="radio"].with-gap:checked + span:after {
-  background-color: #D33F28;
+  background-color: #d33f28;
 }
 
 [type="radio"]:checked + span:after,
 [type="radio"].with-gap:checked + span:before,
 [type="radio"].with-gap:checked + span:after {
-  border: 2px solid #D33F28;
+  border: 2px solid #d33f28;
 }
 
 [type="radio"]:not(:checked) + span,
@@ -1023,8 +1023,8 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 }
 
 [type="checkbox"]:checked + span:not(.lever):before {
-  border-right: 2px solid #D33F28;
-  border-bottom: 2px solid #D33F28;
+  border-right: 2px solid #d33f28;
+  border-bottom: 2px solid #d33f28;
 }
 
 .hide {
@@ -1041,7 +1041,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 }
 
 .modal .modal-footer {
-  background-color: #12536C;
+  background-color: #12536c;
 }
 
 .modal .modal-footer button {
@@ -1050,7 +1050,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 }
 
 .modal .modal-footer button i {
-  color: #D33F28;
+  color: #d33f28;
   font-size: 2rem;
 }
 
@@ -1069,12 +1069,12 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 }
 
 .modal-content .quote-engine-wrapper .submit input {
-  background: #D33F28;
+  background: #d33f28;
   margin-top: 10px;
   padding: 10px;
   font-size: 1.1rem;
   border: none;
-  color: #f2f2f2;
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -1086,8 +1086,8 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 .form-map-wrapper .map h2 {
   font-weight: 700;
   font-size: 2.3rem;
-  color: #f2f2f2;
-  background: #12536C;
+  color: #fff;
+  background: #12536c;
   padding: 10px;
 }
 
@@ -1101,14 +1101,14 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 
 .form-map-wrapper .form h4 {
   font-weight: 700;
-  background: #D33F28;
-  color: #f2f2f2;
+  background: #d33f28;
+  color: #fff;
   padding: 15px;
   margin-top: 0;
 }
 
 .form-map-wrapper .form .btn {
-  background: #D33F28;
+  background: #d33f28;
 }
 
 .pricing-table {
@@ -1121,7 +1121,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 
 .pricing-table .pricing-plan-header h1 {
   font-weight: 700;
-  color: #12536C;
+  color: #12536c;
 }
 
 .pricing-table .container {
@@ -1140,7 +1140,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 
 .pricing-table .card-header {
   padding: 25px 10px;
-  background: #12536C;
+  background: #12536c;
   color: #fff;
   border-radius: 2rem 0;
   /* border-radius: 50%; */
@@ -1192,8 +1192,8 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   opacity: 0.8;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  color: #f2f2f2;
-  background: #D33F28;
+  color: #fff;
+  background: #d33f28;
 }
 
 .pricing-table .fa-ul {
@@ -1208,7 +1208,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 .seo h4 {
   font-weight: 100;
   font-size: 0.6rem;
-  color: #f2f2f2;
+  color: #fff;
 }
 
 /* Hover Effects on Card */

@@ -1,31 +1,30 @@
-$primary-color: #12536C;
+$primary-color: #12536c;
 $sticky-header: #f3f3f3;
-$highlighter: #D33F28;
+$highlighter: #d33f28;
 $text-color: #000;
-$text-rev: #f2f2f2;
-$primary-dark: #12536C;
+$text-rev: #fff;
+$primary-dark: #12536c;
 
 .heading {
-    // background: coral;
-    padding: 1rem;
-    position: relative;
-    margin-bottom: 50px;
-    font-size: 4rem;
-   
+	// background: coral;
+	padding: 1rem;
+	position: relative;
+	margin-bottom: 50px;
+	font-size: 4rem;
 
-    &::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      border-bottom: 5px solid $highlighter;
-      width: 100%;
-    }
-    h1 {
-        font-size: 4rem;
-        font-weight: 700;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-        color: $primary-color;
-      }
-  }
+	&::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		border-bottom: 5px solid $highlighter;
+		width: 100%;
+	}
+	h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		color: $primary-color;
+	}
+}
