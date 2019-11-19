@@ -551,8 +551,8 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 
 .page-header {
   height: 30vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.6)), to(rgba(18, 83, 108, 0.5))), url("../img/hero1.jpg") no-repeat top;
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(18, 83, 108, 0.5)), url("../img/hero1.jpg") no-repeat top;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.3))), url("../img/hero1.jpg") no-repeat top;
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3)), url("../img/hero1.jpg") no-repeat top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
