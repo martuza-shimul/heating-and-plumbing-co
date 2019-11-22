@@ -355,7 +355,7 @@
 }
 
 .pricing .price-content-wrapper .content ul li p {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
@@ -365,6 +365,11 @@
 
 .pricing .price-content-wrapper .content ul li .rate {
   color: #12536c;
+}
+
+.pricing .price-content-wrapper .content ul li .rate span {
+  font-size: 0.8rem;
+  color: #d33f28;
 }
 
 .pricing .price-content-wrapper .content p {
