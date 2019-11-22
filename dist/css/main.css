@@ -1073,6 +1073,19 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   font-weight: 400;
 }
 
+.modal-content .quote-engine-wrapper .last .row {
+  margin-bottom: 10px;
+}
+
+.modal-content .quote-engine-wrapper .last .row .input-field {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.modal-content .quote-engine-wrapper .last .row .input-field label span {
+  font-size: 0.9rem;
+}
+
 .modal-content .quote-engine-wrapper .submit input {
   background: #d33f28;
   margin-top: 10px;

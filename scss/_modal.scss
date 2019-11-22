@@ -72,6 +72,26 @@
       margin-top: 10px;
       font-weight: 400;
     }
+    .last{
+
+      .row{
+        margin-bottom: 10px;
+        .input-field {
+     
+          margin-top: 0.4rem;
+          margin-bottom: 0.4rem;
+
+          label{
+            span{
+              font-size: 0.9rem
+            }
+          }
+        }
+      }
+
+    }
+
+    
     .submit{
       input{
         background: $highlighter;
