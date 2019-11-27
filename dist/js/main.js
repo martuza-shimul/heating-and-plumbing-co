@@ -43,10 +43,23 @@ const qepathThird = document.querySelector(".quote-engine-wrapper .third");
 const qepathFourth = document.querySelector(".quote-engine-wrapper .fourth");
 const qepathLast = document.querySelector(".quote-engine-wrapper .last");
 // let lists = document.querySelectorAll(".first-wrapper .first input");
+// let firstPath = document.querySelectorAll(".quote-engine-wrapper .first input");
 
 const handleRadioClick = () => {
-	qepath.classList.add("hide");
-	qepathSecond.classList.remove("hide");
+	// qepath.getElementsByTagName('input')[3].checked
+	let list = qepath.getElementsByTagName("input");
+	let counter = 0;
+	for (let i = 0; i < list.length; i++) {
+		// const decision = list[i].checked;
+		if (list[i].checked) {
+			qepath.classList.add("hide");
+			qepathSecond.classList.remove("hide");
+			counter++;
+		}
+	}
+	if (counter == 0) {
+		qepath.innerHTML += `<p class= "center-align red-text" style="font-weight: bold" >Please select something</p>`;
+	}
 };
 
 const handleSecond = () => {
