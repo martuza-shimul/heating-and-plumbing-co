@@ -64,20 +64,67 @@ const handleRadioClick = () => {
 
 const handleSecond = () => {
 	// e.preventDefault();
-	qepathSecond.classList.add("hide");
-	qepathType.classList.remove("hide");
+	let list = qepathSecond.getElementsByTagName("input");
+	let counter = 0;
+	for (let i = 0; i < list.length; i++) {
+		// const decision = list[i].checked;
+		if (list[i].checked) {
+			qepathSecond.classList.add("hide");
+			qepathType.classList.remove("hide");
+			counter++;
+		}
+	}
+	if (counter == 0) {
+		qepathSecond.innerHTML += `<p class= "center-align red-text" style="font-weight: bold" >Please select something</p>`;
+	}
 };
+
 const handleType = () => {
-	qepathType.classList.add("hide");
-	qepathThird.classList.remove("hide");
+	let list = qepathType.getElementsByTagName("input");
+	let counter = 0;
+	for (let i = 0; i < list.length; i++) {
+		// const decision = list[i].checked;
+		if (list[i].checked) {
+			qepathType.classList.add("hide");
+			qepathThird.classList.remove("hide");
+			counter++;
+		}
+	}
+	if (counter == 0) {
+		qepathType.innerHTML += `<p class= "center-align red-text" style="font-weight: bold" >Please select something</p>`;
+	}
 };
+
 const handleThird = () => {
-	qepathThird.classList.add("hide");
-	qepathFourth.classList.remove("hide");
+	let list = qepathThird.getElementsByTagName("input");
+	let counter = 0;
+	for (let i = 0; i < list.length; i++) {
+		// const decision = list[i].checked;
+		if (list[i].checked) {
+			qepathThird.classList.add("hide");
+			qepathFourth.classList.remove("hide");
+			counter++;
+		}
+	}
+	if (counter == 0) {
+		qepathThird.innerHTML += `<p class= "center-align red-text" style="font-weight: bold" >Please select something</p>`;
+	}
 };
+
 const handleFourth = () => {
-	qepathFourth.classList.add("hide");
-	qepathLast.classList.remove("hide");
+	let list = qepathFourth.getElementsByTagName("input");
+	let counter = 0;
+	for (let i = 0; i < list.length; i++) {
+		// const decision = list[i].checked;
+		if (list[i].checked) {
+			qepathFourth.classList.add("hide");
+			qepathLast.classList.remove("hide");
+			counter++;
+		}
+	}
+	if (counter == 0) {
+		qepathFourth.innerHTML += `<p class= "center-align red-text" style="font-weight: bold" >Please select something</p>`;
+	}
 };
 
 // let city;
