@@ -555,7 +555,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 }
 
 .page-header {
-  height: 30vh;
+  min-height: 50vh;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.3))), url("../img/hero1.jpg") no-repeat top;
   background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3)), url("../img/hero1.jpg") no-repeat top;
   background-size: cover;
@@ -572,12 +572,26 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 10vw;
+  padding: 10vh 10vw;
   color: #d33f28;
 }
 
 .page-header h3 {
   font-weight: 700;
+  text-align: center;
+  background: rgba(18, 83, 108, 0.7);
+  padding: 2rem 0.5rem;
+  border-radius: 2rem 0;
+  color: #fff;
+}
+
+.page-header button {
+  border-radius: 1rem 0;
+  background: #d33f28;
+}
+
+.page-header button:hover {
+  background: #12536c;
 }
 
 .privacy {

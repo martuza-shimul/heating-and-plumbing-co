@@ -259,7 +259,241 @@
         </ul>
       </header>
       <div class="page-header">
-        <h3> <span class="city-name">Aldgate</span> , London <span class="city-postcode">E1</span> </h3>
+        <h3> <span>Gas Engineers, Electricians and Plumbers In</span> <span class="city-name">Aldgate</span> , London <span class="city-postcode">E1</span> </h3>
+        <button class="waves-effect waves-light btn-large modal-trigger" data-target="modal1"><i class="material-icons left">call_to_action</i>Get Started</button>
+      </div>
+      <!-- Modal Structure -->
+      <div id="modal1" class="modal">
+        <div class="modal-content container">
+
+          <div class="quote-engine-wrapper">
+            <form action="data.php" method="POST">
+              <div class="first">
+                <h5 class="center-align">What type of work do you need?</h5>
+                <p>
+                  <label>
+                    <input  class="with-gap" name="first" value="Install new fixture(s)/appliance(s)" type="radio"  />
+                    <span>Install new fixture(s)/appliance(s)</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input  class="with-gap" name="first" value="Replace existing fixture(s)/appliance(s)" type="radio"  />
+                    <span>Replace existing fixture(s)/appliance(s)</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input  class="with-gap" name="first" type="radio" value="Repair existing fixture(s)/appliance(s)"  />
+                    <span>Repair existing fixture(s)/appliance(s)</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input  class="with-gap" name="first" type="radio" value="Carry out safety check" />
+                    <span>Carry out safety check</span>
+                  </label>
+                </p> 
+                <button onclick="handleRadioClick()"  type="button" class="btn">Continue</button>
+              </div>
+              <div class="second hide">
+                <h5 class="center-align">Which fixture(s)/appliance(s) need installing/Repair?</h5>
+                <p>
+                  <label>
+                    <input name="check[]" type="checkbox" value="Bath" />
+                    <span>Bath</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="check[]" type="checkbox" value="Boiler" />
+                    <span>Boiler</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="check[]" type="checkbox" value="Dishwasher" />
+                    <span>Dishwasher</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="check[]" type="checkbox" value="Radiator" />
+                    <span>Radiator</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="check[]" type="checkbox" value="Shower" />
+                    <span>Shower</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="check[]" type="checkbox" value="Sink & taps" />
+                    <span>Sink & taps</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="check[]" type="checkbox" value="Toilet" />
+                    <span>Toilet</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="check[]" type="checkbox" value="Washing machin" />
+                    <span>Washing machine</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="check[]" type="checkbox" value="Water heater" />
+                    <span>Water heater</span>
+                  </label>
+                </p>
+                 <button onclick="handleSecond()"  type="button" class="btn">Continue</button> 
+                 
+              </div>
+              <div class="type hide">
+                <h5 class="center-align">What is the type of property?</h5>
+                <p>
+                  <label>
+                    <input  class="with-gap" name="type" type="radio" value="Flat or Apartment" />
+                    <span>Flat or Apartment</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input  class="with-gap" name="type" type="radio" value="House" />
+                    <span>House</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input  class="with-gap" name="type" type="radio" value="Commercial Property"  />
+                    <span>Commercial Property</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input  class="with-gap" name="type" type="radio" value="Bungalow"  />
+                    <span>Bungalow</span>
+                  </label>
+                </p>
+                <button onclick="handleType()"  type="button" class="btn">Continue</button>
+                 
+              </div>
+              <div class="third hide">
+                <h5 class="center-align">When do you want this service completed?</h5>
+                <p>
+                  <label>
+                    <input  class="with-gap" name="third" type="radio" value="As soon as possible" />
+                    <span>As soon as possible</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input  class="with-gap" name="third" type="radio" value="Within the next few days"  />
+                    <span>Within the next few days</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input  class="with-gap" name="third" type="radio" value="Within the next week"  />
+                    <span>Within the next week</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input  class="with-gap" name="third" type="radio" value="Within the next month"  />
+                    <span>Within the next month</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input  class="with-gap" name="third" type="radio" value="I don't have a specific date in mind"  />
+                    <span>I don't have a specific date in mind</span>
+                  </label>
+                </p>  
+                <button onclick="handleThird()"  type="button" class="btn">Continue</button>
+              </div>
+              <div class="fourth hide">
+                <h5 class="center-align">Who will purchase the materials?</h5>
+                <p>
+                  <label>
+                    <input  class="with-gap" name="fourth" type="radio" value="I will provide the materials" />
+                    <span>I will provide the materials</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input  class="with-gap" name="fourth" type="radio" value="I would like the pro to provide materials"  />
+                    <span>I would like the pro to provide materials</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input  class="with-gap" name="fourth" type="radio" value="I would like to discuss with the professional" />
+                    <span>I would like to discuss with the professional</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input  class="with-gap" name="fourth" type="radio" value="No materials needed" />
+                    <span>No materials needed</span>
+                  </label>
+                </p>
+                <button onclick="handleFourth()"  type="button" class="btn">Continue</button>
+              </div>
+              <div class="last hide">
+                <div class="row">
+                  <h5 class="center-align">Fill up the form to complete this request</h5>
+                  <div class="input-field col s12 m6">
+                    <input name="first-name" id="first_name" type="text" class="validate"/>
+                    <label for="first_name">Name</label>
+                  </div>
+                  <div class="input-field col s12 m6">
+                    <input name="phone" id="phone" type="text" class="validate"/>
+                    <label for="phone">Phone Number</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input name="email" id="email" type="email" class="validate"/>
+                    <label for="email">Email</label>
+                  </div>  
+                  <div class="input-field col s12">
+                      <input name="postcode" id="postcode" type="text" class="validate"/>
+                      <label for="postcode">Postcode</label>
+                   </div> 
+                   <div class="input-field col s12">
+                      <p>
+                          <input name="fileUpload" id="file" type="file" class="validate"/>
+                          <label for="postcode">Upload Image or video</label>
+                      </p>
+                      <p>
+                        <label>
+                          <input name="form_check[]" type="checkbox" value="Yes" />
+                          <span>I am happy to receive occasional marketing emails from Plumbing And Heating Co</span>
+                        </label>
+                      </p>
+                  </div>
+                </div>
+                <!-- <div class="row">
+                  
+                  
+                  
+                </div> -->
+                <button class="btn">Submit <i class=" material-icons right">send</i></button>
+              </div>   
+            </form>
+          </div>
+         
+        </div>
+        <div class="modal-footer">
+          <button class=" modal-close waves-effect waves-green btn z-depth-3 "> <i class=" material-icons">close</i></button>
+        </div>
       </div>
 
       <section class="pricing-table py-5">
